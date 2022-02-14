@@ -1,0 +1,58 @@
+*{
+font-family: sans-serif;
+background-color:#111;
+color:#e4d0e7;
+}
+
+.wrap{
+    padding-top:70px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 50px;
+    width: 1000px;
+    
+    
+}
+
+.wrap:nth-child(even){
+    flex-direction: row-reverse;
+
+}
+
+.image{
+    width: 100%;
+   
+
+    
+}
+
+.text{
+    padding: 0 30px;
+    width: 100%;
+    
+    
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  
+}
+
+
+h3{
+    font-size: 15px;
+    font-weight:100;
+    
+
+}
+
+
+h1{
+    text-align: center;
+    color:#e4d0e7;
+    font-size: 50px;
+    
+}
